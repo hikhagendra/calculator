@@ -61,5 +61,6 @@ function calculate() {
     }
   }
 
-  console.log(output);
+  screen.textContent = output;
+  userInput = [output];
 }
